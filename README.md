@@ -1,7 +1,8 @@
-# Go-MySQL-Example
-Golang MySQL Signup Example
+# GO SignUp,Login, and Google integration
+Golang user signup,login, password reset with MySQl
+Golang signup, login with Google
 
-### Golang MySQL Signup Example 
+
 
 #### Requires: 
 
@@ -45,8 +46,9 @@ Sign in with google steps
 
 Launching the application
 1. Launch command prompt and change to the project root directory
-2. type go run signup.go
-3. Now go to the web browser and enter localhost:8080
+2. Type go mod tidy to downlaod all the required packages    
+3. type go run signup.go
+4. Now go to the web browser and enter localhost:8080
 ```
 
 

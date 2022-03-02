@@ -249,7 +249,7 @@ func ResetPassword(res http.ResponseWriter, req *http.Request) {
 
 func main() {
 	var tmpl = template.Must(template.New("tmpl").ParseFiles("Resetpassword.html"))
-	db, err = sql.Open("mysql", "root:P@##wd00@/Test")
+	db, err = sql.Open("mysql", "username:password/schemaname")
 	if err != nil {
 		panic(err.Error())
 	}
